@@ -58,6 +58,10 @@ function Header(){
                 <DropdownToggle href="/contact"  className="">
                     聯絡我們
                 </DropdownToggle >
+
+                <DropdownToggle href="/introduction"  className="">
+                    介紹
+                </DropdownToggle >
                 
                 
                 
