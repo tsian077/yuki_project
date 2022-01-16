@@ -9,6 +9,7 @@ import Contact from './contact.js'
 
 import {
   BrowserRouter,
+  HashRouter,
   Routes,
   Route,
 
@@ -22,50 +23,26 @@ function Header(){
     return (
 
            <div>
-            
-           
-            
-
-            <BrowserRouter>
+            <HashRouter>
            
    
-            <Navbar className="bg-light justify-content-center"  expand="lg" defaultActiveKey="/yuki_project"> 
-         
-                
-                {/* 首頁 */}
+            <Navbar className="bg-light justify-content-center"  expand="lg" defaultActiveKey="/yuki_project">       
                 <Dropdown  className="d-inline-block" >
-     
-                  {/* caret  */}
                   <DropdownToggle href="/yuki_project"  className="">
                     首頁
                   </DropdownToggle >
-                      
-               
                 </Dropdown> 
-
-  
-                    {/* 首頁 */}
-                <Teacher />
-    
-               
-                {/* 課程介紹    */}
-
+                <Teacher />    
                 <Class />
                 <DropdownToggle href="/news"  className="">
                     最新消息
                 </DropdownToggle >
-
                 <DropdownToggle href="/contact"  className="">
                     聯絡我們
                 </DropdownToggle >
-
                 <DropdownToggle href="/introduction"  className="">
                     介紹
                 </DropdownToggle >
-                
-                
-                
-                
               {/* </div> */}
               </Navbar>
 
@@ -83,7 +60,7 @@ function Header(){
                
 
               </Routes>
-            </BrowserRouter>
+            </ HashRouter>
           
         
      

@@ -13,9 +13,6 @@ function App() {
       <div style={{ display: 'flex',flexDirection:'row',justifyContent:'space-evenly'}}>
 
         <div></div>
-    
-
-        
           <h1 className="font-link" style={{marginTop:'50px',marginBottom:'50px'}}>社團法人中華時尚美容協會</h1>
           {/* <h1 className="font-link" style={{marginTop:'50px',marginBottom:'50px'}}>hello</h1> */}
 
