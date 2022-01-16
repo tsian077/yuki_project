@@ -23,7 +23,7 @@ function Header(){
     return (
 
            <div>
-            <HashRouter>
+            <HashRouter basename={process.env.PUBLIC_URL}>
            
    
             <Navbar className="bg-light justify-content-center"  expand="lg" defaultActiveKey="/yuki_project">       
