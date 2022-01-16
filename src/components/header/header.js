@@ -39,8 +39,7 @@ function Header(){
                   <DropdownToggle href="/yuki_project"  className="">
                     首頁
                   </DropdownToggle >
-                
-                 
+                      
                
                 </Dropdown> 
 
@@ -52,8 +51,16 @@ function Header(){
                 {/* 課程介紹    */}
 
                 <Class />
-                <News />
-                <Contact />
+                <DropdownToggle href="/news"  className="">
+                    最新消息
+                </DropdownToggle >
+
+                <DropdownToggle href="/contact"  className="">
+                    聯絡我們
+                </DropdownToggle >
+                
+                
+                
                 
               {/* </div> */}
               </Navbar>
@@ -65,8 +72,8 @@ function Header(){
                 <Route path="/yuki_project" element={<h1>Home</h1>} />
                 <Route path="/introduction" element={<h1>Introduction</h1>} />
                 <Route path="/class" element={<h1>Class</h1>} />
-                <Route path="/news" element={<h1>News</h1>} />
-                <Route path="/contact" element={<h1>Contact us</h1>} />
+                <Route path="/news" element={<News />} />
+                <Route path="/contact" element={<Contact />} />
 
     
                
