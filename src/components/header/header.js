@@ -24,7 +24,7 @@ function Header(){
     return (
 
            <div>
-            <HashRouter >
+            <HashRouter basename='/'>
            
    
             
@@ -46,7 +46,7 @@ function Header(){
                
           
                 <Nav>
-                <Nav.Link  variant="secondary" href="/contact">聯絡我們</Nav.Link>
+                  <Nav.Link  variant="secondary" href="/contact">聯絡我們</Nav.Link>
                 </Nav>
                 
                 {/* <DropdownToggle   className="">
