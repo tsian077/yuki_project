@@ -28,11 +28,11 @@ function Header(){
            
    
             
-            <Navbar className="bg-light justify-content-center"  expand="lg" defaultActiveKey="/yuki_project">       
+            <Navbar className="bg-light justify-content-center"  expand="lg" defaultActiveKey="/">       
                
                
                 <Dropdown  className="d-inline-block" >
-                  <DropdownToggle href="/yuki_project"  className="">
+                  <DropdownToggle href="/"  className="">
                     首頁
                   </DropdownToggle >
                   <Teacher />    
@@ -56,7 +56,7 @@ function Header(){
     
             
 
-                <Route path="/yuki_project" element={<h1>Home</h1>} />
+                <Route path="/" element={<h1>Home</h1>} />
                 <Route path="/introduction" element={<h1>Introduction</h1>} />
                 <Route path="/class" element={<h1>Class</h1>} />
                 <Route path="/news" element={<News />} />
