@@ -1,27 +1,27 @@
 {
   "files": {
     "main.css": "/yuki_project/static/css/main.5180fed2.chunk.css",
-    "main.js": "/yuki_project/static/js/main.dd697723.chunk.js",
-    "main.js.map": "/yuki_project/static/js/main.dd697723.chunk.js.map",
-    "runtime-main.js": "/yuki_project/static/js/runtime-main.7e043520.js",
-    "runtime-main.js.map": "/yuki_project/static/js/runtime-main.7e043520.js.map",
+    "main.js": "/yuki_project/static/js/main.c7641a3d.chunk.js",
+    "main.js.map": "/yuki_project/static/js/main.c7641a3d.chunk.js.map",
+    "runtime-main.js": "/yuki_project/static/js/runtime-main.ea844c9a.js",
+    "runtime-main.js.map": "/yuki_project/static/js/runtime-main.ea844c9a.js.map",
     "static/css/2.c9afb087.chunk.css": "/yuki_project/static/css/2.c9afb087.chunk.css",
-    "static/js/2.34fdca76.chunk.js": "/yuki_project/static/js/2.34fdca76.chunk.js",
-    "static/js/2.34fdca76.chunk.js.map": "/yuki_project/static/js/2.34fdca76.chunk.js.map",
-    "static/js/3.2e6a814d.chunk.js": "/yuki_project/static/js/3.2e6a814d.chunk.js",
-    "static/js/3.2e6a814d.chunk.js.map": "/yuki_project/static/js/3.2e6a814d.chunk.js.map",
+    "static/js/2.33a24c8e.chunk.js": "/yuki_project/static/js/2.33a24c8e.chunk.js",
+    "static/js/2.33a24c8e.chunk.js.map": "/yuki_project/static/js/2.33a24c8e.chunk.js.map",
+    "static/js/3.bc341cd9.chunk.js": "/yuki_project/static/js/3.bc341cd9.chunk.js",
+    "static/js/3.bc341cd9.chunk.js.map": "/yuki_project/static/js/3.bc341cd9.chunk.js.map",
     "index.html": "/yuki_project/index.html",
     "static/css/2.c9afb087.chunk.css.map": "/yuki_project/static/css/2.c9afb087.chunk.css.map",
     "static/css/main.5180fed2.chunk.css.map": "/yuki_project/static/css/main.5180fed2.chunk.css.map",
-    "static/js/2.34fdca76.chunk.js.LICENSE.txt": "/yuki_project/static/js/2.34fdca76.chunk.js.LICENSE.txt",
+    "static/js/2.33a24c8e.chunk.js.LICENSE.txt": "/yuki_project/static/js/2.33a24c8e.chunk.js.LICENSE.txt",
     "static/media/index.css": "/yuki_project/static/media/Fruktur-Regular.6a2d0848.ttf",
     "static/media/logo.6ce24c58.svg": "/yuki_project/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.7e043520.js",
+    "static/js/runtime-main.ea844c9a.js",
     "static/css/2.c9afb087.chunk.css",
-    "static/js/2.34fdca76.chunk.js",
+    "static/js/2.33a24c8e.chunk.js",
     "static/css/main.5180fed2.chunk.css",
-    "static/js/main.dd697723.chunk.js"
+    "static/js/main.c7641a3d.chunk.js"
   ]
 }
