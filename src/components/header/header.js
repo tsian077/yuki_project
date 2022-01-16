@@ -9,7 +9,7 @@ import Contact from './contact.js'
 
 import {
   HashRouter,
-  HashRouter,
+
   Routes,
   Route,
 
