@@ -28,14 +28,14 @@ function Header(){
             <BrowserRouter>
            
    
-            <Navbar className="bg-light justify-content-center"  expand="lg" defaultActiveKey="/yuki_project/home"> 
+            <Navbar className="bg-light justify-content-center"  expand="lg" defaultActiveKey="/"> 
          
                 
                 {/* 首頁 */}
                 <Dropdown  className="d-inline-block" >
      
                   {/* caret  */}
-                  <DropdownToggle href="/yuki_project/home"  className="">
+                  <DropdownToggle href="/"  className="">
                     首頁
                   </DropdownToggle >
                 
@@ -54,9 +54,9 @@ function Header(){
               <Routes>
             
 
-                <Route path="/yuki_project/home" element={<h1>hello</h1>} />
-                <Route path="/yuki_project/introduction" element={<h1>hello introduction</h1>} />
-                <Route path="/yuki_project/class" element={<h1>hello class</h1>} />
+                <Route path="/" element={<h1>hello</h1>} />
+                <Route path="/introduction" element={<h1>hello introduction</h1>} />
+                <Route path="/class" element={<h1>hello class</h1>} />
 
     
                
