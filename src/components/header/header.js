@@ -8,7 +8,7 @@ import News from './news.js'
 import Contact from './contact.js'
 
 import {
-  BrowserRouter,
+  HashRouter,
   HashRouter,
   Routes,
   Route,
@@ -23,7 +23,7 @@ function Header(){
     return (
 
            <div>
-            <HashRouter basename={process.env.PUBLIC_URL}>
+            <HashRouter >
            
    
             <Navbar className="bg-light justify-content-center"  expand="lg" defaultActiveKey="/yuki_project">       
