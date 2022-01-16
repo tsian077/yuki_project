@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/yuki_project/static/css/main.5180fed2.chunk.css",
-    "main.js": "/yuki_project/static/js/main.86438a82.chunk.js",
-    "main.js.map": "/yuki_project/static/js/main.86438a82.chunk.js.map",
+    "main.js": "/yuki_project/static/js/main.5160089d.chunk.js",
+    "main.js.map": "/yuki_project/static/js/main.5160089d.chunk.js.map",
     "runtime-main.js": "/yuki_project/static/js/runtime-main.ea844c9a.js",
     "runtime-main.js.map": "/yuki_project/static/js/runtime-main.ea844c9a.js.map",
     "static/css/2.c9afb087.chunk.css": "/yuki_project/static/css/2.c9afb087.chunk.css",
@@ -22,6 +22,6 @@
     "static/css/2.c9afb087.chunk.css",
     "static/js/2.33a24c8e.chunk.js",
     "static/css/main.5180fed2.chunk.css",
-    "static/js/main.86438a82.chunk.js"
+    "static/js/main.5160089d.chunk.js"
   ]
 }
