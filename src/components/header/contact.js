@@ -1,14 +1,9 @@
-
 import React from 'react';
 import { Dropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
 // import 'bootstrap/dist/css/bootstrap.css';
 
-import {
 
-  Link
-} from "react-router-dom";
-
-export default class Introduction extends React.Component {
+export default class Contact extends React.Component {
    
   
   constructor(props) {
@@ -38,24 +33,14 @@ export default class Introduction extends React.Component {
 
   render() {
     return (
-      // <Navbar bg="light" expand="lg"> 
-      //           <Nav as={Link} to={"/"} className="mr-auto">React</Nav>
-      //           <Nav.Link as={Link} to={"/class"}>Home</Nav.Link> 
-      // </Navbar> 
-     
       <Dropdown  className="d-inline-block" onMouseOver={this.onMouseEnter} onMouseLeave={this.onMouseLeave} isOpen={this.state.dropdownOpen} toggle={this.toggle}>
      
         {/* caret  */}
-        <DropdownToggle href="/introduction">
+        <DropdownToggle href="/contact">
         {/* href="/introduction" */}
-          課程介紹
+          聯絡我們
         </DropdownToggle >
-        <DropdownMenu >
-       
-           <DropdownItem tag={Link} to={"/class"}>
-            Header
-            </DropdownItem>
-        </DropdownMenu>
+      
       </Dropdown>
      
       

@@ -4,7 +4,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Dropdown, DropdownToggle } from 'reactstrap';
 import Class from './class.js'
 import Teacher from './teacher.js'
-
+import News from './news.js'
+import Contact from './contact.js'
 
 import {
   BrowserRouter,
@@ -47,6 +48,9 @@ function Header(){
                 {/* 課程介紹    */}
 
                 <Class/>
+                <News/>
+                <Contact/>
+                
               {/* </div> */}
               </Navbar>
 
@@ -54,9 +58,11 @@ function Header(){
               <Routes>
             
 
-                <Route path="/yuki_project" element={<h1>hello</h1>} />
-                <Route path="/introduction" element={<h1>hello introduction</h1>} />
-                <Route path="/class" element={<h1>hello class</h1>} />
+                <Route path="/yuki_project" element={<h1>Home</h1>} />
+                <Route path="/introduction" element={<h1>Introduction</h1>} />
+                <Route path="/class" element={<h1>Class</h1>} />
+                <Route path="/news" element={<h1>News</h1>} />
+                <Route path="/contact" element={<h1>Contact us</h1>} />
 
     
                

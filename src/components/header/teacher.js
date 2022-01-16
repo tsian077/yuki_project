@@ -45,8 +45,9 @@ export default class Introduction extends React.Component {
       <Dropdown  className="d-inline-block " onMouseOver={this.onMouseEnter} onMouseLeave={this.onMouseLeave} isOpen={this.state.dropdownOpen} toggle={this.toggle}>
      
         {/* caret  */}
-        <DropdownToggle  >
+        <DropdownToggle href="/introduction">
         {/* href="/introduction" */}
+        {/* // tag={Link} to={"/introduction"} */}
           師資介紹
         </DropdownToggle >
         <DropdownMenu >
