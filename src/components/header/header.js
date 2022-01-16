@@ -46,7 +46,7 @@ function Header(){
                
           
                 <Nav>
-                  <Nav.Link  variant="secondary" href="/contact">聯絡我們</Nav.Link>
+                  <Nav.Link  variant="secondary" tag={Link} to={"/contact"}>聯絡我們</Nav.Link>
                 </Nav>
                 
                 {/* <DropdownToggle   className="">
