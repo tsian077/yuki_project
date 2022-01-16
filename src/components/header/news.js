@@ -1,7 +1,12 @@
 import React from 'react';
 import { Dropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
 // import 'bootstrap/dist/css/bootstrap.css';
-
+import {
+    BrowserRouter,
+    Routes,
+    Route,
+  
+  } from "react-router-dom";
 
 export default class News extends React.Component {
    
