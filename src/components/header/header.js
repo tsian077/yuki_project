@@ -24,40 +24,30 @@ function Header(){
     return (
 
            <div>
-            <HashRouter basename='/'>
+            <BrowserRouter >
            
    
             
             <Navbar className="bg-light justify-content-center"  expand="lg" defaultActiveKey="/yuki_project">       
-                <Nav>
-                  <Nav.Link href="/yuki_project">首頁</Nav.Link>
-                </Nav>
+               
                
                 <Dropdown  className="d-inline-block" >
-                  {/* <DropdownToggle href="/yuki_project"  className="">
+                  <DropdownToggle href="/yuki_project"  className="">
                     首頁
-                  </DropdownToggle > */}
+                  </DropdownToggle >
                   <Teacher />    
                 <Class />
                 </Dropdown> 
-                <Nav>
-                  <Nav.Link   href="/news">最新消息</Nav.Link>
-                </Nav>
-               
           
-                <Nav>
-                  <Nav.Link  variant="secondary" tag={Link} to={"/contact"}>聯絡我們</Nav.Link>
-                </Nav>
                 
-                {/* <DropdownToggle   className="">
-                <Link to="/class"/>
+                <DropdownToggle href="/yuki_project"   className="">
+                {/* <Link to="/class"/> */}
                     最新消息
 
-                </DropdownToggle > */}
-                {/* <DropdownToggle    className="">
-                  <Link to="/contact"/>
+                </DropdownToggle >
+                <DropdownToggle href="/yuki_project"  className="">
                     聯絡我們
-                </DropdownToggle > */}
+                </DropdownToggle >
               {/* </div> */}
               </Navbar>
 
@@ -76,7 +66,7 @@ function Header(){
                
  
               </Routes>
-            </ HashRouter>
+            </ BrowserRouter>
           
         
      
