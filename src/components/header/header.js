@@ -44,10 +44,10 @@ function Header(){
                
                 </Dropdown> 
 
-                <DropdownToggle href="/introduction"  className="">
+  
                     {/* 首頁 */}
-                    <Teacher />
-                </DropdownToggle >
+                <Teacher />
+    
                
                 {/* 課程介紹    */}
 
