@@ -1,5 +1,5 @@
 import React from "react";
-import { Navbar  } from 'react-bootstrap';
+import { Navbar,Nav  } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Dropdown, DropdownToggle } from 'reactstrap';
 import Class from './class.js'
@@ -8,10 +8,11 @@ import News from './news.js'
 import Contact from './contact.js'
 
 import {
+  BrowserRouter,
   HashRouter,
-
   Routes,
   Route,
+  Link,
 
 } from "react-router-dom";
 
@@ -26,28 +27,43 @@ function Header(){
             <HashRouter >
            
    
+            
             <Navbar className="bg-light justify-content-center"  expand="lg" defaultActiveKey="/yuki_project">       
+                <Nav>
+                  <Nav.Link href="/yuki_project">首頁</Nav.Link>
+                </Nav>
+               
                 <Dropdown  className="d-inline-block" >
-                  <DropdownToggle href="/yuki_project"  className="">
+                  {/* <DropdownToggle href="/yuki_project"  className="">
                     首頁
-                  </DropdownToggle >
-                </Dropdown> 
-                <Teacher />    
+                  </DropdownToggle > */}
+                  <Teacher />    
                 <Class />
-                <DropdownToggle href="/news"  className="">
+                </Dropdown> 
+                <Nav>
+                  <Nav.Link   href="/news">最新消息</Nav.Link>
+                </Nav>
+               
+          
+                <Nav>
+                <Nav.Link  variant="secondary" href="/contact">聯絡我們</Nav.Link>
+                </Nav>
+                
+                {/* <DropdownToggle   className="">
+                <Link to="/class"/>
                     最新消息
-                </DropdownToggle >
-                <DropdownToggle href="/contact"  className="">
+
+                </DropdownToggle > */}
+                {/* <DropdownToggle    className="">
+                  <Link to="/contact"/>
                     聯絡我們
-                </DropdownToggle >
-                <DropdownToggle href="/introduction"  className="">
-                    介紹
-                </DropdownToggle >
+                </DropdownToggle > */}
               {/* </div> */}
               </Navbar>
 
             
               <Routes>
+    
             
 
                 <Route path="/yuki_project" element={<h1>Home</h1>} />
@@ -58,7 +74,7 @@ function Header(){
 
     
                
-
+ 
               </Routes>
             </ HashRouter>
           
