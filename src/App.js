@@ -17,7 +17,6 @@ function App() {
           <h1 className="font-link" style={{marginTop:'50px',marginBottom:'50px'}}>社團法人中華時尚美容協會</h1>
           {/* <h1 className="font-link" style={{marginTop:'50px',marginBottom:'50px'}}>hello</h1> */}
 
-         
         {/* </div> */}
         
         <SocialIcon bgColor="block" style={{marginTop:'50px'}} url="https://www.facebook.com/profile.php?id=100000317502490" />

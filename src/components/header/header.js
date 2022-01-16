@@ -28,14 +28,14 @@ function Header(){
             <BrowserRouter>
            
    
-            <Navbar className="bg-light justify-content-center"  expand="lg" defaultActiveKey="/"> 
+            <Navbar className="bg-light justify-content-center"  expand="lg" defaultActiveKey="/home"> 
          
                 
                 {/* 首頁 */}
                 <Dropdown  className="d-inline-block" >
      
                   {/* caret  */}
-                  <DropdownToggle href="/"  className="">
+                  <DropdownToggle href="/home"  className="">
                     首頁
                   </DropdownToggle >
                 
@@ -54,7 +54,7 @@ function Header(){
               <Routes>
             
 
-                <Route path="/" element={<h1>hello</h1>} />
+                <Route path="/home" element={<h1>hello</h1>} />
                 <Route path="/introduction" element={<h1>hello introduction</h1>} />
                 <Route path="/class" element={<h1>hello class</h1>} />
 
