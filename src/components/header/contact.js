@@ -43,7 +43,6 @@ export default class Contact extends React.Component {
      
         {/* caret  */}
         <DropdownToggle href="/contact">
-        {/* href="/introduction" */}
           聯絡我們
         </DropdownToggle >
       

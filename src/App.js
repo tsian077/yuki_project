@@ -32,7 +32,7 @@ function App() {
         </div>
     
       </div>
-      <div className="container d-flex ">
+      <div className="container d-flex">
           <ButtonGroup className="conatiner pl-200" vertical aria-label="Basic example">
             <Button  variant="secondary">美容丙級</Button>
             <Button  variant="secondary">美容乙級</Button>
