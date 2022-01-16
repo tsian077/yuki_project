@@ -40,12 +40,12 @@ function Header(){
                 </Dropdown> 
           
                 
-                <DropdownToggle href="/yuki_project"   className="">
+                <DropdownToggle tag={Link} to={"/news"}   className="">
                 {/* <Link to="/class"/> */}
                     最新消息
 
                 </DropdownToggle >
-                <DropdownToggle href="/yuki_project"  className="">
+                <DropdownToggle tag={Link} to={"/contact"}  className="">
                     聯絡我們
                 </DropdownToggle >
               {/* </div> */}
