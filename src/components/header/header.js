@@ -37,6 +37,7 @@ function Header(){
                   </DropdownToggle >
                   <Teacher />    
                 <Class />
+                
                 </Dropdown> 
           
                 
